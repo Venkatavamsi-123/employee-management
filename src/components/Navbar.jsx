@@ -9,8 +9,12 @@ const Navbar = () => {
           <Link to="/" className="text-indigo-100 hover:text-white font-medium">Home</Link>
           <Link to="/add" className="text-indigo-100 hover:text-white font-medium">Add Employee</Link>
           <Link to="/list" className="text-indigo-100 hover:text-white font-medium">Employee List</Link>
+          <Link to="/attendance" className="text-indigo-100 hover:text-white font-medium">Attendance</Link>
+          <Link to="/attendancelist" className="text-indigo-100 hover:text-white font-medium">AttendanceList</Link>
+          <Link to="/payroll" className="text-indigo-100 hover:text-white font-medium">Payroll</Link>
           <Link to="/about" className="text-indigo-100 hover:text-white font-medium">About</Link>
           <Link to="/contact" className="text-indigo-100 hover:text-white font-medium">Contact</Link>
+        
         </div>
       </div>
     </nav>
